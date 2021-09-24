@@ -21,7 +21,7 @@ This is a demo project on how to consume webhooks to send notifications to slack
 - Change the directory to the clonned repository. Run ``composer install` to install dependencies. You must have **composer** installed in your computer
 - Create a new script called config.php, copy the contents of config.sample.php to the newly created config.php
 - Replace **channel** with your slack channel name and **endpoint** value with your slack webhook URL. [Slack for PHP](https://github.com/maknz/slack) documents few more additional configuration options that you can use to customize your notification behavior.
-- Load example.php with your browser. i.e. `http://localhost/slacknotifier/example.php`. Fill and submit the form. If the webhook is properly configured, you should see your notification in Slack!
+- Load example.php with your browser. i.e. `http://localhost/slack-notifier-demo/example.php`. Fill and submit the form. If the webhook is properly configured, you should see your notification in Slack!
 
 ## License
 
