@@ -10,7 +10,7 @@ This is a demo project on how to consume webhooks to send notifications to slack
 ## Directory Structure
 
 - **src/SlackNotifier.php** is the class which is responsible for compiling and sending out the slack notification
-- **src/templates/notification.md** is the markdown template which is contains the notification message contents
+- **src/templates/notification.md** is the markdown template which contains the notification message contents. You can customize this template as per your requirements. If you choose to customize the default template, you must make necessary adjustments in the `example.php` to accommodate those template changes. The names set inside the template tags **{{ }}** MUST match with the array keys set by the `$message` array from `example.php`. You can use any number of template tags **{{ }}** in your template as long as there is a corresponding array key is set.
 - **config.sample.php** contains boilerplate configuration for the script execution
 - **example.php** is the main script that you load in your browser to submit information and generate a slack notification
 
